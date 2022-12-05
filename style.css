@@ -1,6 +1,8 @@
 body {
-
+    margin:0px;
     background-color: #C8C8C8;
+    display:flex;
+    flex-direction:column;
 }
 
 #logo {
@@ -13,13 +15,14 @@ body {
 }
 
 .hero-image {
-    background-image: url(images/types-of-phishing-hero.jpg);
+    background-image: url(./Images/types-of-phishing-hero.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     position:relative;
     margin-right: 0px;
-    margin-left: 0px;   
+    width:100vw;
+    height:50vh;
 }
 
 .hero-text {
@@ -71,3 +74,18 @@ text-decoration: none;
 .navbar{
     display:flex
 }
+
+.bg {
+    color:white;
+    background-image: url(./Images/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    margin-right: 0px;
+    width:80vw;
+    height:20vh;
+    align-self:center;
+    margin-top:30px;
+}
+
