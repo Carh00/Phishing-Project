@@ -107,6 +107,7 @@ text-decoration: none;
 .HomeWhySection{
     width: 100%;
     display: flex;
+    background-color:gray;
 }
 
 .HomeHowSection{
@@ -116,16 +117,56 @@ text-decoration: none;
 
 .HomeWhySection p{
     width: 50%;
+    font-size:18px;
+    margin-left:25px;
+    align-self:center;
+    color:white;
+    background-color:gray;
 }
 
 .HomeHowSection p{
     width: 50%;
+    font-size:18px;
+    align-self:center;
+    color:white;
 }
 
 .HomeWhySection img{
     width: 50%;
+    border-radius: 2em;
 }
 
 .HomeHowSection img{
     width: 50%;
+    border-radius: 2em;
+}
+
+.HomeContent2, .HomeContent3 {
+color:white;
+}
+
+.footer{
+    color:white;
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+    line-height:1cm;
+    list-style:none;
+}
+.footersocials, .footercontact, .footerother p{
+    font-size:20px;
+}
+
+.footerlist1 li, .footerlist2 li{
+list-style:none;
+}
+
+.copyrightfooter{
+    color:white;
+    background-color:black;
+}
+
+footer{
+    background-color:black;
+    margin-top:50px;
 }
