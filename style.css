@@ -12,9 +12,22 @@ a {
     text-decoration: none;
     color: grey;
     transition: 500ms;
+    padding: 10px;
 }
 
 a:hover {
+    color: white;
+    background-color: rgba(172, 172, 172, 0.653);
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+    transition: 500ms;
+    padding: 10px 20px 10px 0;
+}
+
+footer a:hover {
     color: white;
     transition: 150ms;
     padding: 10px;
@@ -248,6 +261,148 @@ footer{
     -webkit-animation: floatBubble 1s infinite  normal;
     animation: floatBubble 2s normal;
 }
+
+.headingfordes {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+}
+
+.Description{
+    width: 100%;
+    display: flex;
+    background-color:rgba(128, 128, 128, 0.433);
+    border-radius: 2em;
+}
+
+
+.Description1{
+    width: 100%;
+    display: flex;
+    border-radius: 2em;
+}
+
+.Description1 p {
+    width: 30%;
+    font-size:30px;
+    align-self:center;
+    color:white;
+    color:white;
+   margin: 0 auto;
+}
+
+
+.Description1 img {
+    width: 50%;
+    border-radius: 2em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.HowToTell h2 {
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+
+.HowToTell p {
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.433);
+    border-radius: 2em;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.typeInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spearPhishing:hover {
+   transition: 100ms;
+   color: green;
+}
+
+.spearPhishing {
+    color:white;
+    object-position: center;
+    object-fit: cover;
+    background-image: url(./Images/charlesdeluvio-FdDkfYFHqe4-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    width:45%;
+    height:30vh;
+    align-self:center;
+    margin-top:30px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.phishingbox1 {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+
+.whalingPhishing {
+    color:white;
+    object-position: center;
+    object-fit: cover;
+    background-image: url(./Images/kenny-eliason-3GZNPBLImWc-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    width:45%;
+    height:30vh;
+    align-self:center;
+    margin-top:30px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.Vishing {
+    color:white;
+    object-position: center;
+    object-fit: cover;
+    background-image: url(./Images/tarik-haiga-BxELNNMN88Y-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    width:45%;
+    height:30vh;
+    align-self:center;
+    margin-top:30px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.emailPhishing {
+    color:white;
+    object-position: center;
+    object-fit: cover;
+    background-image: url(./Images/kaur-kristjan-CpPF4W5PB1c-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    width:45%;
+    height:30vh;
+    align-self:center;
+    margin-top:30px;
+    border-radius: 25px;
+    display: flex;
+}
+
+
+
 @-webkit-keyframes floatBubble {
     0% {
         top:500px;
